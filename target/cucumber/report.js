@@ -43,7 +43,7 @@ formatter.match({
   "location": "ConversionStepDefs.I_want_to_convert_degree_Fahrenheit_to_Celsius(int,int)"
 });
 formatter.result({
-  "duration": 12953119360,
+  "duration": 15173016134,
   "status": "passed"
 });
 formatter.match({
@@ -60,7 +60,7 @@ formatter.match({
   "location": "ConversionStepDefs.I_input_the_value_of_Fahrenheit_as_in_text(int,int)"
 });
 formatter.result({
-  "duration": 1017130608,
+  "duration": 3547250113,
   "status": "passed"
 });
 formatter.match({
@@ -73,7 +73,7 @@ formatter.match({
   "location": "ConversionStepDefs.It_should_be_converted_to_Celsius_as_degree(int)"
 });
 formatter.result({
-  "duration": 480828441,
+  "duration": 3753876285,
   "status": "passed"
 });
 });

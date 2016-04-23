@@ -1,10 +1,14 @@
 package com.packtpub.mastering.selenium.steps;
 
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import com.packtpub.mastering.selenium.page.Google;
 import com.packtpub.mastering.selenium.page.TemperatureConverterPage;
@@ -25,11 +29,17 @@ public class ConversionStepDefs {
 	
 	@Before 
 	public void setup() throws Exception {
+		/*
 		FirefoxProfile profile = new FirefoxProfile();
 		profile.setPreference("network.proxy.type", 1);
 		profile.setPreference("network.proxy.socks", "localhost");
 		profile.setPreference("network.proxy.socks_port", 8888);
 		driver = new FirefoxDriver(profile);
+		*/
+		URL url = new URL("http://cherubychen:94f73e0e-bbce-4706-81b8-a9a51db043e6@ondemand.saucelabs.com:80/wd/hub"); 
+		Capabilities capabilities = DesiredCapabilities.firefox();
+		driver = new RemoteWebDriver(url, capabilities);
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}

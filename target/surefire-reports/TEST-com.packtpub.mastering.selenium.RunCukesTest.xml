@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.packtpub.mastering.selenium.RunCukesTest" time="0.418" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="com.packtpub.mastering.selenium.RunCukesTest" time="1.553" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
@@ -65,6 +65,6 @@
   </properties>
   <testcase classname="Given I want to convert 98.6 degree Fahrenheit to Celsius   " name="Given I want to convert 98.6 degree Fahrenheit to Celsius   " time="0.002"/>
   <testcase classname="When I input the value of Fahrenheit as 98.6 in text    " name="When I input the value of Fahrenheit as 98.6 in text    " time="0"/>
-  <testcase classname="Then It should be converted to Celsius as 37 degree     " name="Then It should be converted to Celsius as 37 degree     " time="0.001"/>
-  <testcase classname="Scenario: Convert to Celsius from Fahrenheit  " name="Scenario: Convert to Celsius from Fahrenheit  " time="0.415"/>
+  <testcase classname="Then It should be converted to Celsius as 37 degree     " name="Then It should be converted to Celsius as 37 degree     " time="0"/>
+  <testcase classname="Scenario: Convert to Celsius from Fahrenheit  " name="Scenario: Convert to Celsius from Fahrenheit  " time="1.551"/>
 </testsuite>
