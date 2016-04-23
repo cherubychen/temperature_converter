@@ -1,1 +1,3 @@
-temperature_converter\temperature_converter\App.class
+com\packtpub\mastering\selenium\page\TemperatureConverterPage.class
+com\packtpub\mastering\selenium\page\Google.class
+com\packtpub\mastering\selenium\page\WrongPageException.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.packtpub.mastering.selenium.RunCukesTest" time="0.547" errors="0" skipped="4">
+<testsuite tests="4" failures="0" name="com.packtpub.mastering.selenium.RunCukesTest" time="0.418" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_40\jre\bin"/>
@@ -63,36 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Given I want to convert 98.6 degree Fahrenheit to Celsius   " name="Given I want to convert 98.6 degree Fahrenheit to Celsius   " time="0.122">
-    <skipped/>
-    <system-out>Feature: Convert between different unit of temperatures
-  
-  Formula: C/5 = (F - 32) / 9
-  C = 5(F - 32)/9 = 5(98.6 - 32)/9 = 37
-
-  Scenario: Convert to Celsius from Fahrenheit                &amp;#27;[90m# com\packtpub\mastering\selenium\Conversion.feature:6&amp;#27;[0m
-    &amp;#27;[90mGiven &amp;#27;[0m&amp;#27;[90mI want to convert &amp;#27;[0m&amp;#27;[90m&amp;#27;[1m98&amp;#27;[0m&amp;#27;[90m.&amp;#27;[0m&amp;#27;[90m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[90m degree Fahrenheit to Celsius&amp;#27;[0m &amp;#27;[90m# ConversionStepDefs.I_want_to_convert_degree_Fahrenheit_to_Celsius(int,int)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="When I input the value of Fahrenheit as 98.6 in text    " name="When I input the value of Fahrenheit as 98.6 in text    " time="0.128">
-    <skipped/>
-    <system-out>&amp;#27;[1A    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mI want to convert &amp;#27;[0m&amp;#27;[33m&amp;#27;[1m98&amp;#27;[0m&amp;#27;[33m.&amp;#27;[0m&amp;#27;[33m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[33m degree Fahrenheit to Celsius&amp;#27;[0m &amp;#27;[90m# ConversionStepDefs.I_want_to_convert_degree_Fahrenheit_to_Celsius(int,int)&amp;#27;[0m
-      &amp;#27;[31mcucumber.runtime.PendingException: TODO: implement me
-      	at com.packtpub.mastering.selenium.steps.ConversionStepDefs.I_want_to_convert_degree_Fahrenheit_to_Celsius(ConversionStepDefs.java:13)
-      	at ?.Given I want to convert 98.6 degree Fahrenheit to Celsius(com\packtpub\mastering\selenium\Conversion.feature:8)
-      &amp;#27;[0m
-    &amp;#27;[90mWhen &amp;#27;[0m&amp;#27;[90mI input the value of Fahrenheit as &amp;#27;[0m&amp;#27;[90m&amp;#27;[1m98&amp;#27;[0m&amp;#27;[90m.&amp;#27;[0m&amp;#27;[90m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[90m in text&amp;#27;[0m      &amp;#27;[90m# ConversionStepDefs.I_input_the_value_of_Fahrenheit_as_in_text(int,int)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Then It should be converted to Celsius as 37 degree     " name="Then It should be converted to Celsius as 37 degree     " time="0.146">
-    <skipped/>
-    <system-out>&amp;#27;[1A    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI input the value of Fahrenheit as &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m98&amp;#27;[0m&amp;#27;[36m.&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m6&amp;#27;[0m&amp;#27;[36m in text&amp;#27;[0m      &amp;#27;[90m# ConversionStepDefs.I_input_the_value_of_Fahrenheit_as_in_text(int,int)&amp;#27;[0m
-    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mIt should be converted to Celsius as &amp;#27;[0m&amp;#27;[90m&amp;#27;[1m37&amp;#27;[0m&amp;#27;[90m degree&amp;#27;[0m       &amp;#27;[90m# ConversionStepDefs.It_should_be_converted_to_Celsius_as_degree(int)&amp;#27;[0m
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: Convert to Celsius from Fahrenheit  " name="Scenario: Convert to Celsius from Fahrenheit  " time="0.151">
-    <skipped/>
-    <system-out>&amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mIt should be converted to Celsius as &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m37&amp;#27;[0m&amp;#27;[36m degree&amp;#27;[0m       &amp;#27;[90m# ConversionStepDefs.It_should_be_converted_to_Celsius_as_degree(int)&amp;#27;[0m
-</system-out>
-  </testcase>
+  <testcase classname="Given I want to convert 98.6 degree Fahrenheit to Celsius   " name="Given I want to convert 98.6 degree Fahrenheit to Celsius   " time="0.002"/>
+  <testcase classname="When I input the value of Fahrenheit as 98.6 in text    " name="When I input the value of Fahrenheit as 98.6 in text    " time="0"/>
+  <testcase classname="Then It should be converted to Celsius as 37 degree     " name="Then It should be converted to Celsius as 37 degree     " time="0.001"/>
+  <testcase classname="Scenario: Convert to Celsius from Fahrenheit  " name="Scenario: Convert to Celsius from Fahrenheit  " time="0.415"/>
 </testsuite>

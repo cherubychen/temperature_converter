@@ -43,9 +43,8 @@ formatter.match({
   "location": "ConversionStepDefs.I_want_to_convert_degree_Fahrenheit_to_Celsius(int,int)"
 });
 formatter.result({
-  "duration": 97125823,
-  "error_message": "cucumber.runtime.PendingException: TODO: implement me\r\n\tat com.packtpub.mastering.selenium.steps.ConversionStepDefs.I_want_to_convert_degree_Fahrenheit_to_Celsius(ConversionStepDefs.java:13)\r\n\tat ✽.Given I want to convert 98.6 degree Fahrenheit to Celsius(com\\packtpub\\mastering\\selenium\\Conversion.feature:8)\r\n",
-  "status": "pending"
+  "duration": 12953119360,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -61,7 +60,8 @@ formatter.match({
   "location": "ConversionStepDefs.I_input_the_value_of_Fahrenheit_as_in_text(int,int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1017130608,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -73,6 +73,7 @@ formatter.match({
   "location": "ConversionStepDefs.It_should_be_converted_to_Celsius_as_degree(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 480828441,
+  "status": "passed"
 });
 });
